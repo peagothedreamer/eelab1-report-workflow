@@ -1,0 +1,38 @@
+# 临时文件
+.tmp/
+out/
+
+# LaTeX 中间产物
+*.aux
+*.log
+*.fls
+*.fdb_latexmk
+*.xdv
+*.out
+*.toc
+*.lof
+*.lot
+*.bbl
+*.blg
+*.synctex.gz
+
+# 由 init.ps1 注入的字体
+**/local-fonts/*
+!**/local-fonts/.gitkeep
+
+# 实测数据与产物
+**/data/raw/*
+!**/data/raw/.gitkeep
+**/Rst/*.pdf
+**/report.pdf
+**/预习提纲.pdf
+
+# 用户自备的参考报告与打印稿
+reference/*
+!reference/.gitkeep
+提交/
+
+# 系统文件
+Thumbs.db
+desktop.ini
+.DS_Store
